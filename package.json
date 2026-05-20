@@ -1,0 +1,24 @@
+{
+  "name": "rb-store-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp automation bot for RB-STORE",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "automation",
+    "baileys"
+  ],
+  "author": "RB-STORE",\n  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "pino": "^8.19.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
